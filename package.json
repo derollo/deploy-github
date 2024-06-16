@@ -1,6 +1,6 @@
 {
-  "homepage": "https://derollo/github.io/websoit",
-  "name": "websoit",
+  "homepage": "https://derollo/github.io/websoit/",
+  "name": "deploy-github",
   "version": "0.1.0",
   "private": false,
   "dependencies": {

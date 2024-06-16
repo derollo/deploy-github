@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/github.io/websoit/static/css/main.364e63fb.css",
-    "main.js": "/github.io/websoit/static/js/main.16fe0e39.js",
-    "static/js/453.a018a56e.chunk.js": "/github.io/websoit/static/js/453.a018a56e.chunk.js",
+    "main.js": "/github.io/websoit/static/js/main.b1a9c4e8.js",
+    "static/js/453.9b1485be.chunk.js": "/github.io/websoit/static/js/453.9b1485be.chunk.js",
     "static/media/contact-img.svg": "/github.io/websoit/static/media/contact-img.96e97b17d30610f52cc07cebc6a34b9c.svg",
     "static/media/logo.svg": "/github.io/websoit/static/media/logo.5892263f82f70d25e11907ea0a12080b.svg",
     "static/media/color-sharp.png": "/github.io/websoit/static/media/color-sharp.bea361cfef80fefc2d1e.png",
@@ -27,11 +27,11 @@
     "static/media/nav-icon1.svg": "/github.io/websoit/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/twitch-icon.svg": "/github.io/websoit/static/media/twitch-icon.27006b3e929fd09ebc352e348386f516.svg",
     "main.364e63fb.css.map": "/github.io/websoit/static/css/main.364e63fb.css.map",
-    "main.16fe0e39.js.map": "/github.io/websoit/static/js/main.16fe0e39.js.map",
-    "453.a018a56e.chunk.js.map": "/github.io/websoit/static/js/453.a018a56e.chunk.js.map"
+    "main.b1a9c4e8.js.map": "/github.io/websoit/static/js/main.b1a9c4e8.js.map",
+    "453.9b1485be.chunk.js.map": "/github.io/websoit/static/js/453.9b1485be.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.364e63fb.css",
-    "static/js/main.16fe0e39.js"
+    "static/js/main.b1a9c4e8.js"
   ]
 }

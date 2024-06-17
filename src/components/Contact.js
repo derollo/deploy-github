@@ -14,12 +14,12 @@ export const Contact = () => {
     <section className="contact" id="connect">
       <Container>
         <Row className="align-items-center">
-          <Col size={12} md={6}>
+          <Col xs={12} md={5}>
             <TrackVisibility>
               {({ isVisible }) => <AnimatedImage isVisible={isVisible} />}
             </TrackVisibility>
           </Col>
-          <Col size={12} md={6}>
+          <Col xs={12} md={6} className="text-center">
             <TrackVisibility>
               {({ isVisible }) => (
                 <div className={isVisible ? "animate__animated animate__fadeIn" : ""}>
@@ -29,13 +29,15 @@ export const Contact = () => {
                     target="_blank"
                     rel="noopener noreferrer"
                     style={{ textDecoration: 'none' }}
-                    >
+                  >
                     <button className="button"><span>LinkedIn</span></button>
-                    </a>
-                    <div className="contact-info">
-                    <p><strong>Email:</strong> <a href="mailto:thomas@tarlsson.pro">thomas@tarlsson.pro</a></p>
-                    <p><strong>Discord:</strong> toomtoom</p>
-                    <p><strong>Address:</strong> Turku, Finland</p>
+                  </a>
+                  <div className="contact-info">
+                    <p><strong>EMAIL:</strong> <a href="mailto:thomas@tarlsson.pro" className="email-link">
+                      thomas@tarlsson.pro
+                    </a></p>
+                    <p><strong>DISCORD:</strong> <a href="https://discord.gg/G9UetnQh" className="email-link">toomtoom</a></p>
+                    <p><strong>ADDRESS:</strong> Turku, Finland</p>
                   </div>
                 </div>
               )}

@@ -1,11 +1,11 @@
-import { useState, useEffect } from "react";
+import React, { useState, useEffect } from "react";
 import { Navbar, Nav, Container } from "react-bootstrap";
 import navIcon1 from '../assets/img/nav-icon1.svg';
 import navIcon2 from '../assets/img/nav-icon2.svg';
 import navIcon3 from '../assets/img/twitch-icon.svg';
 import { HashLink } from 'react-router-hash-link';
 import {
-  BrowserRouter as Router
+  BrowserRouter as Router  // Import BrowserRouter
 } from "react-router-dom";
 
 export const NavBar = () => {
@@ -32,14 +32,10 @@ export const NavBar = () => {
   }
 
   return (
-    <Router>
+    <Router> {/* Ensure the Router component wraps your entire NavBar */}
       <Navbar expand="md" className={scrolled ? "scrolled" : ""}>
         <Container>
-          <Navbar.Brand href="/">
-          </Navbar.Brand>
-          <Navbar.Toggle aria-controls="basic-navbar-nav">
-            <span className="navbar-toggler-icon"></span>
-          </Navbar.Toggle>
+          <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="ms-auto">
               <Nav.Link href="#home" className={activeLink === 'home' ? 'active navbar-link' : 'navbar-link'} onClick={() => onUpdateActiveLink('home')}>Home</Nav.Link>
@@ -48,11 +44,11 @@ export const NavBar = () => {
             </Nav>
             <span className="navbar-text">
               <div className="social-icon">
-                <a href="https://www.linkedin.com/in/thomas-karlsson-448b65223/"><img src={navIcon1} alt="" /></a>
-                <a href="https://www.twitch.tv/toomtoom"><img src={navIcon3} alt="" /></a>
-                <a href="https://discord.gg/nQW4z4B3"><img src={navIcon2} alt="" /></a>
+                <a href="https://www.linkedin.com/in/thomas-karlsson-448b65223/" target="_blank" rel="noopener noreferrer"><img src={navIcon1} alt="LinkedIn" /></a>
+                <a href="https://www.twitch.tv/toomtoom" target="_blank" rel="noopener noreferrer"><img src={navIcon3} alt="Twitch" /></a>
+                <a href="https://discord.gg/nQW4z4B3" target="_blank" rel="noopener noreferrer"><img src={navIcon2} alt="Discord" /></a>
               </div>
-              <HashLink to='#connect'>
+              <HashLink smooth to='#connect'> {/* Use HashLink within the Router context */}
                 <button className="vvd"><span>Let’s Connect</span></button>
               </HashLink>
             </span>

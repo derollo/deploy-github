@@ -1,17 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.8f2007e8.css",
+    "main.css": "/static/css/main.0898c348.css",
     "main.js": "/static/js/main.b47ace7c.js",
     "static/js/453.9b1485be.chunk.js": "/static/js/453.9b1485be.chunk.js",
     "static/media/contact-img.svg": "/static/media/contact-img.96e97b17d30610f52cc07cebc6a34b9c.svg",
     "static/media/logo.svg": "/static/media/logo.5892263f82f70d25e11907ea0a12080b.svg",
-    "static/media/back.png": "/static/media/back.df793cf758678fd63cd4.png",
     "static/media/color-sharp.webp": "/static/media/color-sharp.faa679ada75f9ac3ad14.webp",
     "static/media/color-sharp2.webp": "/static/media/color-sharp2.c5465858dc60c9b871ef.webp",
     "static/media/CentraNo2-Bold.ttf": "/static/media/CentraNo2-Bold.2faff7f7d3fc92a2fcd9.ttf",
     "static/media/CentraNo2-Medium.ttf": "/static/media/CentraNo2-Medium.f94be5b326d78bb32b95.ttf",
     "static/media/CentraNo2-Book.ttf": "/static/media/CentraNo2-Book.2b143fa4b734a3584043.ttf",
-    "static/media/footer-bg.png": "/static/media/footer-bg.7bd67c0f73571d0acc02.png",
+    "static/media/back.webp": "/static/media/back.44740911a6de58fb7fbb.webp",
     "static/media/project-img2.webp": "/static/media/project-img2.b4b12dff9cede0130d8c.webp",
     "static/media/project-img1.webp": "/static/media/project-img1.0803cb83154e5db1c5fd.webp",
     "static/media/revicons.eot": "/static/media/revicons.a77de540a38981833f9e.eot",
@@ -21,17 +20,18 @@
     "static/media/meter2.svg": "/static/media/meter2.1b8f416eccd1ee162218b8528a1c5cdc.svg",
     "static/media/meter1.svg": "/static/media/meter1.c4085ff859afbd8488e9da47d4953850.svg",
     "static/media/meter3.svg": "/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
+    "static/media/footer-bg.webp": "/static/media/footer-bg.50daee586cf27f81a0f4.webp",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.3291bdc37c0c03ff12c931b570cfb358.svg",
     "static/media/nav-icon3.svg": "/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/index.html",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/twitch-icon.svg": "/static/media/twitch-icon.27006b3e929fd09ebc352e348386f516.svg",
-    "main.8f2007e8.css.map": "/static/css/main.8f2007e8.css.map",
+    "main.0898c348.css.map": "/static/css/main.0898c348.css.map",
     "main.b47ace7c.js.map": "/static/js/main.b47ace7c.js.map",
     "453.9b1485be.chunk.js.map": "/static/js/453.9b1485be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8f2007e8.css",
+    "static/css/main.0898c348.css",
     "static/js/main.b47ace7c.js"
   ]
 }

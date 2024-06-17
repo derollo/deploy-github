@@ -2,6 +2,7 @@ import React, { useState, useEffect, useCallback } from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import { ArrowRightCircle } from 'react-bootstrap-icons';
 import 'animate.css';
+import LazyLoad from 'react-lazyload';
 import TrackVisibility from 'react-on-screen';
 import headerImg from "../assets/img/logo.svg";
 
@@ -19,9 +20,15 @@ const AnimatedText = ({ isVisible, text }) => (
 );
 
 const AnimatedImage = ({ isVisible }) => (
-  <div className={isVisible ? "animate__animated animate__zoomIn" : ""}>
-    <img src={headerImg} alt="Header Img" />
-  </div>
+  <TrackVisibility>
+    {({ isVisible: imageVisible }) => (
+      <LazyLoad height={200} once>
+        <div className={isVisible && imageVisible ? "animate__animated animate__zoomIn" : ""}>
+          <img src={headerImg} alt="Header Img" />
+        </div>
+      </LazyLoad>
+    )}
+  </TrackVisibility>
 );
 
 export const Banner = () => {
@@ -73,9 +80,7 @@ export const Banner = () => {
             </TrackVisibility>
           </Col>
           <Col xs={12} md={6} xl={5}>
-            <TrackVisibility>
-              {({ isVisible }) => <AnimatedImage isVisible={isVisible} />}
-            </TrackVisibility>
+            <AnimatedImage />
           </Col>
         </Row>
       </Container>

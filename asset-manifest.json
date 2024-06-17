@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.a945213a.css",
-    "main.js": "/static/js/main.b47ace7c.js",
+    "main.css": "/static/css/main.9b063f8a.css",
+    "main.js": "/static/js/main.08e77f15.js",
     "static/js/453.9b1485be.chunk.js": "/static/js/453.9b1485be.chunk.js",
     "static/media/contact-img.svg": "/static/media/contact-img.96e97b17d30610f52cc07cebc6a34b9c.svg",
     "static/media/logo.svg": "/static/media/logo.5892263f82f70d25e11907ea0a12080b.svg",
@@ -22,16 +22,15 @@
     "static/media/meter3.svg": "/static/media/meter3.2201f7e4df22bc4b08180210474f28cc.svg",
     "static/media/footer-bg.webp": "/static/media/footer-bg.50daee586cf27f81a0f4.webp",
     "static/media/nav-icon2.svg": "/static/media/nav-icon2.3291bdc37c0c03ff12c931b570cfb358.svg",
-    "static/media/nav-icon3.svg": "/static/media/nav-icon3.08b285abb8e118b52637efa5d65c5367.svg",
     "index.html": "/index.html",
     "static/media/nav-icon1.svg": "/static/media/nav-icon1.721d5414c26365f117e71d46b6641cb2.svg",
     "static/media/twitch-icon.svg": "/static/media/twitch-icon.27006b3e929fd09ebc352e348386f516.svg",
-    "main.a945213a.css.map": "/static/css/main.a945213a.css.map",
-    "main.b47ace7c.js.map": "/static/js/main.b47ace7c.js.map",
+    "main.9b063f8a.css.map": "/static/css/main.9b063f8a.css.map",
+    "main.08e77f15.js.map": "/static/js/main.08e77f15.js.map",
     "453.9b1485be.chunk.js.map": "/static/js/453.9b1485be.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a945213a.css",
-    "static/js/main.b47ace7c.js"
+    "static/css/main.9b063f8a.css",
+    "static/js/main.08e77f15.js"
   ]
 }
